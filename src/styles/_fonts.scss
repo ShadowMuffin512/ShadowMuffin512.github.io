@@ -1,0 +1,20 @@
+$navbarTitleSize: 32px;
+$textColor: white;
+$textAlternateColor: rgb(233, 198, 0);
+
+
+@font-face {
+	font-family: 'Handwriting';
+	src: url('../../public/assets//fonts/EduTASBeginner-VariableFont_wght.ttf')
+		format('woff2-variations');
+  font-optical-sizing: auto;
+	font-weight: 10;
+}
+
+@font-face {
+	font-family: 'Standard';
+	src: url('../../public/assets/fonts/JetBrainsMono-VariableFont_wght.ttf');
+  font-optical-sizing: auto;
+  font-stretch: 75% 125%;
+	font-weight: 300;
+}

@@ -1,0 +1,52 @@
+@use 'fonts';
+@import-normalize;
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+
+body {
+  color: white;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(34,34,107,1) 63%, rgba(0,139,196,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Standard, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+  margin: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; 
+}
+body::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(34,34,107,1) 63%, rgba(0,139,196,1) 100%);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);    /* color of the scroll thumb */
+}

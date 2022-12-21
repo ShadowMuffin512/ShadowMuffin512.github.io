@@ -1,0 +1,39 @@
+@use 'fonts';
+
+.infoSectionContentWrapper:not(:nth-child(1)) {
+    margin-top: 5%;
+}
+
+.infoSectionContentTitle {
+    background-color: fonts.$textColor;
+    color: black;
+    display: inline;
+    border-radius: 16px;
+    margin-bottom: 5%;
+    padding: 1% 2%;
+}
+
+.infoSectionContentDescription {
+    margin-top: 3%;
+    
+    padding-bottom: 2%;
+    border-bottom: dashed 3px white;
+}
+
+.infoSectionContentImages {
+    margin: 5% 0;
+}
+
+.infoSectionContentImage {
+    margin:  -5% 0 0 0;
+    width: 60%;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.infoSectionContentImage:nth-child(1) {
+    margin-top: 0;
+}
+
+.infoSectionContentImage:nth-child(odd) {
+    float: right;
+}

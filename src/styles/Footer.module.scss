@@ -1,0 +1,30 @@
+@use 'fonts';
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.25);
+    padding: #{fonts.$navbarTitleSize + 5px} 10%;
+}
+
+.contactsWrapper {
+    width: 50%;
+
+}
+
+.contactEntry {
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.contactLogo {
+    width: 32px;
+    aspect-ratio: 1;
+    margin-right: 2%;
+}
+
+.contactEntry > p {
+    margin: 0;
+}

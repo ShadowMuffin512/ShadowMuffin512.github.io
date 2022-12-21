@@ -1,0 +1,41 @@
+@use 'utils';
+@use 'fonts';
+
+
+:export {
+	textAlternateColor: fonts.$textAlternateColor;
+}
+
+
+.headerWrapper {
+    padding: 0 0 0 10%;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.headerTitle {
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 3%;
+}
+
+.headerSubtitle {
+    color: #93d6ff;
+    font-family: Handwriting;
+    font-weight: bolder;
+}
+
+
+.scrollDownButton {
+    margin-top: 5%;
+    background-color: fonts.$textAlternateColor;
+    color: black;
+    padding: 10px 50px;
+    font-size: clamp(24px, 4vw, 32px);
+    border-radius: 10px;
+}
+
+.drawBorder {
+	@include utils.btn-border-drawing(fonts.$textAlternateColor, fonts.$textAlternateColor, 4px, bottom, right);
+}
+
