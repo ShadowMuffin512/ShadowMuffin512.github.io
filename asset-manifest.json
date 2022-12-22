@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7329c6e1.css",
-    "main.js": "/static/js/main.9d6fb852.js",
+    "main.css": "/static/css/main.c380acd8.css",
+    "main.js": "/static/js/main.a0726339.js",
     "static/media/anter-songoff.png": "/static/media/anter-songoff.ad5cd50a28091aafac0d.png",
     "static/media/anter-homepage.png": "/static/media/anter-homepage.a4977ca0755d59055fa7.png",
     "static/media/JetBrainsMono-VariableFont_wght.ttf": "/static/media/JetBrainsMono-VariableFont_wght.ebc33bd57e78956d75ad.ttf",
@@ -10,7 +10,6 @@
     "static/media/reactjs.png": "/static/media/reactjs.9de556ebcbbfc0ea51d3.png",
     "static/media/postgres.png": "/static/media/postgres.abd5874e8440984aacbc.png",
     "static/media/EduTASBeginner-VariableFont_wght.ttf": "/static/media/EduTASBeginner-VariableFont_wght.a3ac0123eb1663aa3494.ttf",
-    "static/media/focuser.svg": "/static/media/focuser.dea411bdfde9fd2c7c4920f5f9d93519.svg",
     "static/media/nodejs.png": "/static/media/nodejs.1ecf85e16a6b60b96cce.png",
     "static/media/django.png": "/static/media/django.8195ab81a8b773e6ed52.png",
     "static/media/flask.png": "/static/media/flask.3783382594f816744d6d.png",
@@ -18,11 +17,11 @@
     "static/media/redis.svg": "/static/media/redis.954b4b75cd839a20e0678ee4c4245679.svg",
     "static/media/typescript.svg": "/static/media/typescript.19388ca6b6dde5741433ca2b940b8044.svg",
     "index.html": "/index.html",
-    "main.7329c6e1.css.map": "/static/css/main.7329c6e1.css.map",
-    "main.9d6fb852.js.map": "/static/js/main.9d6fb852.js.map"
+    "main.c380acd8.css.map": "/static/css/main.c380acd8.css.map",
+    "main.a0726339.js.map": "/static/js/main.a0726339.js.map"
   },
   "entrypoints": [
-    "static/css/main.7329c6e1.css",
-    "static/js/main.9d6fb852.js"
+    "static/css/main.c380acd8.css",
+    "static/js/main.a0726339.js"
   ]
 }
