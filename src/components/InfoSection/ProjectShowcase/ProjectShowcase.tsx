@@ -6,7 +6,6 @@ import React from 'react';
 
 const InfoSectionContent = (props: {
 	title: string;
-	logo: string,
 	description: string;
 	images: string[];
 	technologies: { name: string; logo: string }[];

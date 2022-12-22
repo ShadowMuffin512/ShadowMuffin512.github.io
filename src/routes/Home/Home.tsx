@@ -17,7 +17,6 @@ import FocuserTimerPage from '../../assets/images/timer-page.png';
 import FocuserWebsitesPage from '../../assets/images/websites-page.png';
 import AnterHomePage from '../../assets/images/anter-homepage.png';
 import AnterSongoffPage from '../../assets/images/anter-songoff.png';
-import FocuserLogo from '../../assets/images/focuser.svg';
 
 const Home = () => {
 	return (
@@ -28,7 +27,6 @@ const Home = () => {
 			</InfoSection>
 			<InfoSection title="Past Projects">
 				<ProjectShowcase
-					logo={FocuserLogo}
 					title="F0cuser"
 					images={[FocuserWebsitesPage, FocuserTimerPage]}
 					description="A free & opensource distraction-reducing app for maximizing productivity!"
@@ -42,7 +40,6 @@ const Home = () => {
 
 				<ProjectShowcase
 					title="Anter.live"
-					logo={FocuserLogo}
 					images={[AnterHomePage, AnterSongoffPage]}
 					description="A website for music lovers, who like a bit of competition"
 					technologies={[
